@@ -36,5 +36,3 @@ plt_triangular.plot(t, pulse_triangular, color='green')  # Plot triangular signa
 plt_rectangular.plot(t, pulse_rectangular, color='red')  # Plot rectangular signal
 
 plt.show()
-
-
