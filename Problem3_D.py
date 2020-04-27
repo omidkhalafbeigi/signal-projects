@@ -1,6 +1,3 @@
-import matplotlib.pyplot as plt
-from scipy import signal
-import numpy as np
 import Problem3_C as P_3
 
 signal_1 = [0, 1, 0, -1, 0, -1, 1, 1, 0, 0]

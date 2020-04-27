@@ -54,7 +54,7 @@ def convolution(signal1, signal2):
             counter_big_length -= 1
         del (smallest_signal[len(smallest_signal) - 1])
         result.append(sum_period)
-        print(sum_period)
+        # print(sum_period)
         sum_period = 0
 
     plt_convolve.stem(result, use_line_collection=True, linefmt='black', basefmt='black')
